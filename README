@@ -13,10 +13,9 @@ website.
 Apart from being seriously quickly developed the deployed prototypes have a couple of downsides which I tried to 
 correct by creating a script performing an after productions.
 
-I want to thank my friends Gregor Schmidt (@schmidtwisser) for helping me out with some ruby basics (from which he
-apperently got sick as he had to stay in bed afterwards for a couple of days). Further I want to thank my friend 
-Volker Gersabeck (Co founder of Pidoco GmbH) for his curiosity, assistance and support with his profound knowledge
-of the Pidoco core and with his system insights.
+I want to thank my friend Gregor Schmidt (@schmidtwisser) for helping me out with some ruby basics. Further I want to 
+thank Volker Gersabeck (Co founder of Pidoco GmbH) for his curiosity, assistance and support with his profound 
+knowledge of the Pidoco core and with his system insights.
 
 The current after production script could solve the following issues:
 
