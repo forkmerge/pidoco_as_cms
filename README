@@ -1,0 +1,44 @@
+README
+
+Pidoco as CMS (an experiment)
+=============================
+
+This project is an experiment. When sketching the wireframes for the brand new website http://forkmerge.com I was 
+impressed by the speed with which you can create usable website with pidoco. I created a complete website with all 
+pages and texts within one and a half hours (OK the texts still need some polish though). Two years ago I needed for
+similar job a couple of days. So I got curious how it would be to use Pidoco as a CMS for ForkMerge. I downloaded the
+HTML export of my prototype and directly deployed them as static files on my web server and "bang" I had a complete 
+website.
+
+Apart from being seriously quickly developed the deployed prototypes have a couple of downsides which I tried to 
+correct by creating a script performing an after productions.
+
+I want to thank my friends Gregor Schmidt (@schmidtwisser) for helping me out with some ruby basics (from which he
+apperently got sick as he had to stay in bed afterwards for a couple of days). Further I want to thank my friend 
+Volker Gersabeck (Co founder of Pidoco GmbH) for his curiosity, assistance and support with his profound knowledge
+of the Pidoco core and with his system insights.
+
+The current after production script could solve the following issues:
+
+* The JavaScript based browser fork in index.html was replaced by a simple index.php which forwards to the prototypes
+homepage (page0001). This makes it easier for google to find the actual pages.
+* The pages' title was replaced to not have Pidoco but ForkMerge as title.
+* The favicon.ico of Pidoco was replaced by another one.
+* The sketeched.css file was extended to change the pages' background as I wanted to give the page a partly less 
+sketched look and to give it more colors.
+
+The following issues could be solved in future but I did not find the time yet:
+
+* The URLs could look nicer having replacing the page's ID by its name instead.
+* The page could use a different font apart from the hate loved Comic Sans by using web fonts for instance. You need to
+pay special attention to the line breaks that Pidoco inserts into your text fields. You might want to remove them as 
+they make life hard when using wider fonts. Pidoco inserts these line breaks to assure that the line breaks in the 
+authoring environment (using Arial) corresponds to the line breaks in the generated prototype (using Comic Sans).
+
+The following issues I did not know how to solve properly yet:
+
+* From a SEO point of view the Pidoco prototypes are not optimal at all. For instance spiders do not know what is a 
+headline and what is simple text. Even the order of text fields on the page does not automatically be the same order 
+in the source code.
+* Further it is currently not possible to link selected words within a text field to an URL. This makes writing texts
+like blog entries rather inconvenient.
