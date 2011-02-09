@@ -42,3 +42,11 @@ headline and what is simple text. Even the order of text fields on the page does
 in the source code.
 * Further it is currently not possible to link selected words within a text field to an URL. This makes writing texts
 like blog entries rather inconvenient.
+
+Usage instructions
+
+* Change the pathes to directories used in after_production.rb to suit your needs.
+* Add your background image and favicon.ico.
+* Adapt after_production.rb to replace the pages' titles in a way that serves your needs.
+* Keep in mind that you might need to add another mime-type to your web server's config. Please consult the README 
+file that Pidoco delivers with your downloaded prototype.
