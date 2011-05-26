@@ -49,3 +49,5 @@ Usage instructions
 * Adapt after_production.rb to replace the pages' titles in a way that serves your needs.
 * Keep in mind that you might need to add another mime-type to your web server's config. Please consult the README 
 file that Pidoco delivers with your downloaded prototype.
+
+-----------
